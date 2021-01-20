@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baseprice Readme</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="purchasing-tool-for-swisslog">Purchasing tool for Swisslog</h1>
+<p>Hi! This tool contains two main functions and then one sub function.<br>
+1: Cleans PIR data directly from SAP, you input the file you recieve from SAP after running the ZMMINFORECEXT 	transaction and the output is a Excel workbook with only fixed suppliers.<br>
+2: Compares prices, suppliers and leadtime between the preconfigured baseprice list and the PIR-list.</p>
+<h1 id="function-one-clean-pir">Function one: Clean PIR</h1>
+<p><img src="https://pasteboard.co/JKyIOND.png" alt="main"><br>
+Press “Clean raw PIR”<br>
+Select your file that you got from SAP<br>
+Select where you want to save the file<br>
+wait for prompt “Script Complete”</p>
+<h1 id="function-two-analyse">Function two: Analyse</h1>
+<p><img src="https://pasteboard.co/JKyIOND.png" alt="main"><br>
+Press “Run analysis”<br>
+Select your now cleaned version of PIR<br>
+<strong>!Important, make sure the excel workbook you select only contains fixed suppliers!</strong><br>
+Select where you want to save the file<br>
+wait for prompt “Script Complete”</p>
+<h2 id="sub-function-manage-database">Sub function: Manage database</h2>
+<p><img src="https://pasteboard.co/JKyIOND.png" alt="main"><br>
+Press “Manage database”<br>
+<img src="https://pasteboard.co/JKyJlO6.png" alt="pass"><br>
+Password is Swisslog, this is just a safety precaution to avoid misstakes.<br>
+Now you have multiple options.<br>
+<strong>Print</strong><br>
+These are to bottom row buttons, select which record you want to print then select save location and the output is a Excel workbook in the correct format.<br>
+<strong>Upload new</strong><br>
+Press the “Activate buttons” button and then press ok on the prompt. (this is also just for safety to avoid misstakes)<br>
+Select what record you want to upload.<br>
+Note1: Good practice is to first make a copy by printing out old records.<br>
+Note2: When you want to update a newer version of the records print the old one and just update the values, it is very important that the format stays the same.</p>
+<p>This tool was created by Eric Lindkvist<br>
+<a href="mailto:lindkvisteric@gmail.com">lindkvisteric@gmail.com</a></p>
+</div>
+</body>
+
+</html>
